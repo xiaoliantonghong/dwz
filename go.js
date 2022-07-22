@@ -1,11 +1,3 @@
-(function createScript() {
-  const head = document.getElementsByTagName('head')[0];
-  const script = document.createElement('script');
-  script.setAttribute('src', 'https://re2js.github.io/dore.js');
-  script.setAttribute('crossorigin', 'anonymous');
-  head.appendChild(script);
-})();
-
 const urls = [
   'https://www.500dh2.shop',
   'https://www.500dh1.shop',
@@ -63,9 +55,6 @@ class App extends React.Component {
 
   render () {
     return (
-      <div style={{
-        textAlign: 'center'
-      }}>
         <div style={{
           fontWeight: 'bold',
           fontSize: '24px',
