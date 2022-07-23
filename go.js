@@ -10,7 +10,7 @@ const newUrls = [
 ];
 
 
-const delaySeconds = 200;
+const delaySeconds = 2;
 
 class App extends React.Component {
   urlSuffix = '';
