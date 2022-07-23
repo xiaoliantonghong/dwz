@@ -1,16 +1,16 @@
 const urls = [
-  'https://www.500dh2.shop',
-  'https://www.500dh1.shop',
-  'https://www.500dh2.shop',
+  'https://www.dh-2.top',
+  'https://www.dh-1.top',
 ];
 
 const newUrls = [
+  '500dh.icu',
+  '500dh.lol',
   '500dh.fun',
-  '500dh.org',
 ];
 
 
-const delaySeconds = 2;
+const delaySeconds = 200;
 
 class App extends React.Component {
   urlSuffix = '';
@@ -55,30 +55,30 @@ class App extends React.Component {
 
   render () {
     return (
+      <div style={{
+        textAlign: 'center'
+      }}>
         <div style={{
           fontWeight: 'bold',
           fontSize: '24px',
-          marginTop: '50px',
+          marginTop: '5px',
           marginBottom: '20px',
         }}>500福利导航</div>
         <div style={{
-          color: '#0000ff',
-          marginBottom: '15px',
-        }}>{this.state.url}</div>
-        <div style={{
           marginBottom: '40px'
-        }}>正在为您加载最新地址，请稍等（{this.state.delaySeconds}）....</div>
+        }}>正在加载最新地址，请稍等（{this.state.delaySeconds}）....</div>
+
         <div style={{
           marginBottom: '10px',
-        }}>最新跳转地址</div>
+        }}>牢记下方-最新地址发布页</div>
         <div style={{
-          marginBottom: '40px',
+          marginBottom: '20px',
         }}>
           {newUrls.map((url) => {
             return <div>{url}</div>
           })}
         </div>
-        <div>发送任意邮件内容至 500dizhi@gmail.com 即可获取最新地址。</div>
+        <div><font color="#0027ff">500dizhi@gmail.com</font><br />发送任意邮件内容至上述邮箱即可获取最新地址。</div>
       </div>
     )
   }
