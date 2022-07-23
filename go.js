@@ -6,7 +6,7 @@ const urls = [
 const newUrls = [
   '500dh.icu',
   '500dh.lol',
-  '500dh.fun',
+  '500dh.run',
 ];
 
 
