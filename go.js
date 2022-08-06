@@ -1,7 +1,7 @@
 
 const urls = [
-  'https://www.dh-2.top',
-  'https://www.dh-1.top',
+  'https://dh-3.top',
+  'https://dh-4.top',
 ];
 
 const newUrls = [
