@@ -1,8 +1,8 @@
 
 const urls = [
   'https://wb88.top',
-  'https://wb15.top',
-  'https://wb88.top',
+  'https://wb2.top',
+  'https://wb7.top',
 ];
 
 const newUrls = [
