@@ -10,7 +10,6 @@ const newUrls = [
   '500dh.run',
 ];
 
-
 const delaySeconds = 2;
 
 class App extends React.Component {
